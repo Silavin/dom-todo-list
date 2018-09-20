@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Todo List</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<h1>My To-Do List</h1>
+	<main>
+		<h1>My To-Do List</h1>
+		<span>Please enter what you need to do:</span> <input placeholder="eg.I need to buy milk" id="inputToDo" />
+		<!-- <input type="checkbox" id="check" title="check"><label for="check">I
+		declare that I will complete said task</label> -->
+		<button id="injectToDo">Confirm</button>
+		<ul id="todo-list"></ul>
 
-	<ul id="todo-list"></ul>
-
-	<script src="script.js"></script>
+		<script src="script.js"></script>
+	</main>
 </body>
+
 </html>
